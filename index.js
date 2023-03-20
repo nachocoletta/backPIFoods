@@ -77,6 +77,7 @@ let dietsApi = [
 // });
 
 conn.sync({ force: false }).then(() => {
+    preChargeDiets();
     server.listen(PORT, () => {
       console.log("%s listening at 3000"); // eslint-disable-line no-console
     });

@@ -77,7 +77,7 @@ const getAllRecipes = async () => {
 
 
 router.get('/recipes', async (req, res) => {
-
+    console.log('hola');
     const { name } = req.query;
     // const apiInfo = await getApiInfo();
     //   console.log('Api INFO ', apiInfo);

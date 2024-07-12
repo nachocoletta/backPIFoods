@@ -37,7 +37,7 @@ const getApiInfo = async () => {
                 healthScore: element.healthScore,
                 diets: element.diets.map(each => ({ name: each })),
                 dishTypes: element.dishTypes, 
-                steps: element.analyzedInstructions[0]?.steps.map(each => { return each.step })
+                // steps: element.analyzedInstructions[0]?.steps.map(each => { return each.step })
             }
         })
         // console.log("apiRecipes " ,apiRecipes)
